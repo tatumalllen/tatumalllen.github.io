@@ -34,7 +34,7 @@ footer {
 /* Add styles for the navigation bar */
 nav {
     background-color: #4CACBC; /* Updated background color */
-    padding: 0.5rem;
+    padding: 1.5rem;
 }
 
 nav ul {
@@ -71,7 +71,25 @@ nav a:active {
 #projects,
 #resume {
     background-color: #F6E3C5;
-    color: #4CACBC;
-    padding: 1rem;
+    color: #607274;
+    padding: 1.5rem;
     margin-bottom: 1rem;
+    line-height: 2;
 }
+button {
+    background-color: #0077B5; /* LinkedIn blue color */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button a {
+    color: white;
+    text-decoration: none;
+  }
