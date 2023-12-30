@@ -19,7 +19,7 @@ section {
 
 .project {
     background-color: #6CC4A1;
-    color: #F6E3C5;
+    color: #607274;
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -76,10 +76,12 @@ nav a:active {
     margin-bottom: 1rem;
     line-height: 2;
 }
-button {
-    background-color: #0077B5; /* LinkedIn blue color */
+.social-button {
+    margin-right: 10px;
+  }
+
+  button {
     border: none;
-    color: white;
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
@@ -89,7 +91,21 @@ button {
     border-radius: 5px;
   }
 
+  .linkedin-button {
+    background-color: #0077B5; /* LinkedIn blue color */
+    color: white;
+  }
+
+  .github-button {
+    background-color: #333; /* GitHub black color */
+    color: white;
+  }
+
   button a {
     color: white;
     text-decoration: none;
+  }
+
+  button span {
+    margin-left: 10px;
   }
